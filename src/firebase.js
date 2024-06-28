@@ -3,7 +3,7 @@ const serviceAccount = require('./credentials/db-inventory-70227-firebase-admins
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
-  databaseURL: "https://db-inventory-70227-default-rtdb.europe-west1.firebasedatabase.app/"
+  databaseURL: "TU_URL_DE_FIREBASE_DATABASE"
 });
 
 const db = admin.database();
