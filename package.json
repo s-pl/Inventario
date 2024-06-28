@@ -1,0 +1,16 @@
+{
+  "name": "inventario-nodejs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "s-pl",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "-": "^0.0.1",
+    "firebase-admin": "^12.2.0",
+    "save": "^2.9.0"
+  }
+}

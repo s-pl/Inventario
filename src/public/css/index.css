@@ -1,0 +1,149 @@
+/* index.css */
+
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-top: 20px;
+}
+
+/* Center the button and give it some style */
+center button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+center button:hover {
+    background-color: #45a049;
+}
+
+/* Table styles */
+#productos {
+    margin: 20px auto;
+    width: 90%;
+    max-width: 1200px;
+}
+
+#tablaproductos {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#tablaproductos thead {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#tablaproductos th, #tablaproductos td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+#tablaproductos tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#tablaproductos tr:hover {
+    background-color: #ddd;
+}
+
+/* Overlay and popup styles */
+/* Estilos para el popup y el formulario */
+#popupDialog {
+    position: fixed;
+    display: none;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    z-index: 3;
+    border-radius: 8px;
+    width: 80%; /* Ancho del popup ajustable */
+    max-width: 600px; /* Ancho máximo del popup */
+}
+
+#popupDialog form {
+    display: grid;
+    gap: 10px;
+}
+
+#popupDialog form input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#popupDialog form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#popupDialog form button:hover {
+    background-color: #45a049;
+}
+
+#popupDialog button[type="button"] {
+    background-color: #f44336;
+}
+
+#popupDialog button[type="button"]:hover {
+    background-color: #da190b;
+}
+
+
+#overlay {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 2;
+}
+
+
+/* DataTables styles */
+.dataTables_wrapper .dataTables_filter {
+    float: right;
+    text-align: right;
+}
+
+.dataTables_wrapper .dataTables_length {
+    float: left;
+}
+
+.dataTables_wrapper .dataTables_paginate {
+    float: right;
+    text-align: right;
+}
+
+.dataTables_wrapper .dataTables_info {
+    float: left;
+}
