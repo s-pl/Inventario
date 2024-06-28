@@ -25,6 +25,7 @@ El proyecto está estructurado de la siguiente manera:
 Se utiliza el SDK de Firebase Admin para configurar las credenciales y la URL de la base de datos en firebase.js.
 Para poder obtener las credenciales visita: 
 - https://firebase.google.com/docs/admin/setup?hl=es-419#windows
+- Cuando las obtengas, deberás guardar el JSON en ``./credentials`` y linkearlo desde ``./firebase.js``
 ```json
 {
   "type": "",
