@@ -63,5 +63,5 @@ Para poder obtener las credenciales visita:
     Accede a la aplicación desde http://localhost:3000/.
 
 
-##Pruébalo
-[](https://bmgyawfdsd.eu-central-1.awsapprunner.com/)
+## Pruébalo
+https://bmgyawfdsd.eu-central-1.awsapprunner.com/
